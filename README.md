@@ -14,9 +14,9 @@ Summary: Adds i18n/l10n support to Flask applications
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-babel-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-babel-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-babel-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-babel-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-babel-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-babel-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tmplvdjmerb-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tmplvdjmerb-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tmplvdjmerb-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tmplvdjmerb-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tmplvdjmerb-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tmplvdjmerb-feedstock/branch/master)
 
 Current release info
 ====================
