@@ -1,20 +1,21 @@
-{%set name = "flask-babel" %}
-{%set camelName = "Flask-Babel" %}
-{%set version = "0.11.1" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "d29b36c399e42e98bc9401c8c1c159f2befcb8c12a2a2a87ec49ad7623036899" %}
+{% set name = "Flask-Babel" %}
+{% set version = "0.11.2" %}
+{% set compress_type = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "c0d75710bd4b0fe866f9f2347de6e19208712f9cec006436b4c1c15d4cb0c939" %}
+{% set build = 0 %}
 
 package:
-  name: {{ name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ camelName }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash }}
 
 build:
-  number: 0
+  number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -36,9 +37,12 @@ test:
     - flask_babel
 
 about:
-  home: http://github.com/python-babel/flask-babel
+  home: https://github.com/python-babel/flask-babel
+  license_file: LICENSE
   license: BSD 3-Clause
+  license_family: BSD
   summary: 'Adds i18n/l10n support to Flask applications'
+  dev_url: https://github.com/python-babel/flask-babel
 
 extra:
   recipe-maintainers:

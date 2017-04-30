@@ -1,7 +1,7 @@
 About flask-babel
 =================
 
-Home: http://github.com/python-babel/flask-babel
+Home: https://github.com/python-babel/flask-babel
 
 Package license: BSD 3-Clause
 
