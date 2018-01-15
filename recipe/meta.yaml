@@ -1,8 +1,8 @@
 {% set name = "Flask-Babel" %}
-{% set version = "0.11.2" %}
+{% set version = "0.11.1" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "c0d75710bd4b0fe866f9f2347de6e19208712f9cec006436b4c1c15d4cb0c939" %}
+{% set hash = "d29b36c399e42e98bc9401c8c1c159f2befcb8c12a2a2a87ec49ad7623036899" %}
 {% set build = 0 %}
 
 package:
